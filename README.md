@@ -1,4 +1,5 @@
-# Regression-House-Sale-Price-Prediction
+Regression-House-Sale-Price-Prediction
+====================================================================== 
 1.宣告和定義
 import numpy as np
 import pandas as pd
@@ -17,7 +18,7 @@ data_2 = pd.read_csv('/Users/jn6737/Desktop/Regression_data/valid-v3.csv')
 X_valid = data_2.drop(['price','id'],axis=1).values
 Y_valid = data_2['price'].values
 
-4.將老師給的資料丟進model以求出price
+###4.將老師給的資料丟進model以求出price
 data_3 = pd.read_csv('/Users/jn6737/Desktop/Regression_data/test-v3.csv')
 X_test = data_3.drop(['id'],axis=1).values
 
